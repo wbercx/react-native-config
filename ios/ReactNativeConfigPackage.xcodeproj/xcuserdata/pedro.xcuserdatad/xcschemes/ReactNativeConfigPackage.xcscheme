@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EB2648DE1C7BE17A00B8F155"
                BuildableName = "libReactNativeConfig.a"
-               BlueprintName = "ReactNativeConfig"
-               ReferencedContainer = "container:ReactNativeConfig.xcodeproj">
+               BlueprintName = "ReactNativeConfigPackage"
+               ReferencedContainer = "container:ReactNativeConfigPackage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,8 +47,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EB2648DE1C7BE17A00B8F155"
             BuildableName = "libReactNativeConfig.a"
-            BlueprintName = "ReactNativeConfig"
-            ReferencedContainer = "container:ReactNativeConfig.xcodeproj">
+            BlueprintName = "ReactNativeConfigPackage"
+            ReferencedContainer = "container:ReactNativeConfigPackage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,8 +65,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EB2648DE1C7BE17A00B8F155"
             BuildableName = "libReactNativeConfig.a"
-            BlueprintName = "ReactNativeConfig"
-            ReferencedContainer = "container:ReactNativeConfig.xcodeproj">
+            BlueprintName = "ReactNativeConfigPackage"
+            ReferencedContainer = "container:ReactNativeConfigPackage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

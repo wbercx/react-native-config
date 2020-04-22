@@ -5,7 +5,7 @@
 #else
 #import "RCTBridgeModule.h"
 #endif
-@interface ReactNativeConfig : NSObject <RCTBridgeModule>
+@interface ReactNativeConfigPackage : NSObject <RCTBridgeModule>
 
 + (NSDictionary *)env;
 + (NSString *)envFor: (NSString *)key;

@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DF7F6B6203AA0C200D0EAB7 /* ReactNativeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4E8461C7D2456000F8875 /* ReactNativeConfig.m */; };
-		3DF7F6B7203AA0D600D0EAB7 /* ReactNativeConfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB2648E21C7BE17A00B8F155 /* ReactNativeConfig.h */; };
-		EB2648E31C7BE17A00B8F155 /* ReactNativeConfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB2648E21C7BE17A00B8F155 /* ReactNativeConfig.h */; };
-		EBE4E8471C7D2456000F8875 /* ReactNativeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4E8461C7D2456000F8875 /* ReactNativeConfig.m */; };
+		3DF7F6B6203AA0C200D0EAB7 /* ReactNativeConfigPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4E8461C7D2456000F8875 /* ReactNativeConfigPackage.m */; };
+		3DF7F6B7203AA0D600D0EAB7 /* ReactNativeConfigPackage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB2648E21C7BE17A00B8F155 /* ReactNativeConfigPackage.h */; };
+		EB2648E31C7BE17A00B8F155 /* ReactNativeConfigPackage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB2648E21C7BE17A00B8F155 /* ReactNativeConfigPackage.h */; };
+		EBE4E8471C7D2456000F8875 /* ReactNativeConfigPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4E8461C7D2456000F8875 /* ReactNativeConfigPackage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,7 +20,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				3DF7F6B7203AA0D600D0EAB7 /* ReactNativeConfig.h in CopyFiles */,
+				3DF7F6B7203AA0D600D0EAB7 /* ReactNativeConfigPackage.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +39,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				EB2648E31C7BE17A00B8F155 /* ReactNativeConfig.h in CopyFiles */,
+				EB2648E31C7BE17A00B8F155 /* ReactNativeConfigPackage.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +60,9 @@
 		50406729228CAD5A00E0438A /* ReadDotEnv.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = ReadDotEnv.rb; sourceTree = "<group>"; };
 		50830C45228DD3D000CEA8FC /* BuildXCConfig.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = BuildXCConfig.rb; sourceTree = "<group>"; };
 		EB2648DF1C7BE17A00B8F155 /* libReactNativeConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB2648E21C7BE17A00B8F155 /* ReactNativeConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeConfig.h; sourceTree = "<group>"; };
+		EB2648E21C7BE17A00B8F155 /* ReactNativeConfigPackage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeConfigPackage.h; sourceTree = "<group>"; };
 		EBE4E8291C7BF6DD000F8875 /* BuildDotenvConfig.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = BuildDotenvConfig.rb; sourceTree = "<group>"; };
-		EBE4E8461C7D2456000F8875 /* ReactNativeConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeConfig.m; sourceTree = "<group>"; };
+		EBE4E8461C7D2456000F8875 /* ReactNativeConfigPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeConfigPackage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		EB2648D61C7BE17A00B8F155 = {
 			isa = PBXGroup;
 			children = (
-				EB2648E11C7BE17A00B8F155 /* ReactNativeConfig */,
+				EB2648E11C7BE17A00B8F155 /* ReactNativeConfigPackage */,
 				EB2648E01C7BE17A00B8F155 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,24 +100,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EB2648E11C7BE17A00B8F155 /* ReactNativeConfig */ = {
+		EB2648E11C7BE17A00B8F155 /* ReactNativeConfigPackage */ = {
 			isa = PBXGroup;
 			children = (
 				50830C45228DD3D000CEA8FC /* BuildXCConfig.rb */,
-				EB2648E21C7BE17A00B8F155 /* ReactNativeConfig.h */,
-				EBE4E8461C7D2456000F8875 /* ReactNativeConfig.m */,
+				EB2648E21C7BE17A00B8F155 /* ReactNativeConfigPackage.h */,
+				EBE4E8461C7D2456000F8875 /* ReactNativeConfigPackage.m */,
 				EBE4E8291C7BF6DD000F8875 /* BuildDotenvConfig.rb */,
 				50406729228CAD5A00E0438A /* ReadDotEnv.rb */,
 			);
-			path = ReactNativeConfig;
+			path = ReactNativeConfigPackage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3DF7F6AB203AA09B00D0EAB7 /* ReactNativeConfig-tvOS */ = {
+		3DF7F6AB203AA09B00D0EAB7 /* ReactNativeConfigPackage-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DF7F6B4203AA09B00D0EAB7 /* Build configuration list for PBXNativeTarget "ReactNativeConfig-tvOS" */;
+			buildConfigurationList = 3DF7F6B4203AA09B00D0EAB7 /* Build configuration list for PBXNativeTarget "ReactNativeConfigPackage-tvOS" */;
 			buildPhases = (
 				3DF7F6B5203AA0A900D0EAB7 /* ShellScript */,
 				3DF7F6A8203AA09B00D0EAB7 /* Sources */,
@@ -129,14 +129,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactNativeConfig-tvOS";
-			productName = "ReactNativeConfig-tvOS";
+			name = "ReactNativeConfigPackage-tvOS";
+			productName = "ReactNativeConfigPackage-tvOS";
 			productReference = 3DF7F6AC203AA09B00D0EAB7 /* libReactNativeConfig-tvOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		EB2648DE1C7BE17A00B8F155 /* ReactNativeConfig */ = {
+		EB2648DE1C7BE17A00B8F155 /* ReactNativeConfigPackage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB2648E81C7BE17A00B8F155 /* Build configuration list for PBXNativeTarget "ReactNativeConfig" */;
+			buildConfigurationList = EB2648E81C7BE17A00B8F155 /* Build configuration list for PBXNativeTarget "ReactNativeConfigPackage" */;
 			buildPhases = (
 				EBE4E8281C7BF689000F8875 /* ShellScript */,
 				EB2648DB1C7BE17A00B8F155 /* Sources */,
@@ -148,8 +148,8 @@
 			);
 			dependencies = (
 			);
-			name = ReactNativeConfig;
-			productName = ReactNativeConfig;
+			name = ReactNativeConfigPackage;
+			productName = ReactNativeConfigPackage;
 			productReference = EB2648DF1C7BE17A00B8F155 /* libReactNativeConfig.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -171,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EB2648DA1C7BE17A00B8F155 /* Build configuration list for PBXProject "ReactNativeConfig" */;
+			buildConfigurationList = EB2648DA1C7BE17A00B8F155 /* Build configuration list for PBXProject "ReactNativeConfigPackage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,8 +184,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB2648DE1C7BE17A00B8F155 /* ReactNativeConfig */,
-				3DF7F6AB203AA09B00D0EAB7 /* ReactNativeConfig-tvOS */,
+				EB2648DE1C7BE17A00B8F155 /* ReactNativeConfigPackage */,
+				3DF7F6AB203AA09B00D0EAB7 /* ReactNativeConfigPackage-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -197,13 +197,13 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/ReactNativeConfig/BuildDotenvConfig.rb",
+				"$(SRCROOT)/ReactNativeConfigPackage/BuildDotenvConfig.rb",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./ReactNativeConfig/BuildDotenvConfig.rb\n";
+			shellScript = "./ReactNativeConfigPackage/BuildDotenvConfig.rb\n";
 		};
 		EBE4E8281C7BF689000F8875 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -211,13 +211,13 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/ReactNativeConfig/BuildDotenvConfig.rb",
+				"$(SRCROOT)/ReactNativeConfigPackage/BuildDotenvConfig.rb",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -xe\necho \"$SRCROOT\"\n./ReactNativeConfig/BuildDotenvConfig.rb \"$SRCROOT/../../..\" \"$SRCROOT/ReactNativeConfig/\"\n";
+			shellScript = "set -xe\necho \"$SRCROOT\"\n./ReactNativeConfigPackage/BuildDotenvConfig.rb \"$SRCROOT/../../..\" \"$SRCROOT/ReactNativeConfigPackage/\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -226,7 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF7F6B6203AA0C200D0EAB7 /* ReactNativeConfig.m in Sources */,
+				3DF7F6B6203AA0C200D0EAB7 /* ReactNativeConfigPackage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBE4E8471C7D2456000F8875 /* ReactNativeConfig.m in Sources */,
+				EBE4E8471C7D2456000F8875 /* ReactNativeConfigPackage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DF7F6B4203AA09B00D0EAB7 /* Build configuration list for PBXNativeTarget "ReactNativeConfig-tvOS" */ = {
+		3DF7F6B4203AA09B00D0EAB7 /* Build configuration list for PBXNativeTarget "ReactNativeConfigPackage-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DF7F6B2203AA09B00D0EAB7 /* Debug */,
@@ -425,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB2648DA1C7BE17A00B8F155 /* Build configuration list for PBXProject "ReactNativeConfig" */ = {
+		EB2648DA1C7BE17A00B8F155 /* Build configuration list for PBXProject "ReactNativeConfigPackage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB2648E61C7BE17A00B8F155 /* Debug */,
@@ -434,7 +434,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB2648E81C7BE17A00B8F155 /* Build configuration list for PBXNativeTarget "ReactNativeConfig" */ = {
+		EB2648E81C7BE17A00B8F155 /* Build configuration list for PBXNativeTarget "ReactNativeConfigPackage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB2648E91C7BE17A00B8F155 /* Debug */,

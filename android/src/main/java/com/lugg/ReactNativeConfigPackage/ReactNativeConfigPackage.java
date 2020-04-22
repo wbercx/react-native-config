@@ -1,4 +1,4 @@
-package com.lugg.ReactNativeConfig;
+package com.lugg.ReactNativeConfigPackage;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

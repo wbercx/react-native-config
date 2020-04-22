@@ -1,9 +1,9 @@
-#import "ReactNativeConfig.h"
+#import "ReactNativeConfigPackage.h"
 #import "GeneratedDotEnv.m" // written during build by BuildDotenvConfig.ruby
 
-@implementation ReactNativeConfig
+@implementation ReactNativeConfigPackage
 
-RCT_EXPORT_MODULE()
+RCT_EXPORT_MODULE(ReactNativeConfigPackage)
 
 + (BOOL)requiresMainQueueSetup
 {

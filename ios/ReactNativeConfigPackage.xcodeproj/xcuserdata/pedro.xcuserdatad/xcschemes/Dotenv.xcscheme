@@ -17,7 +17,7 @@
                BlueprintIdentifier = "EBE4E83A1C7D1D11000F8875"
                BuildableName = "Dotenv.bundle"
                BlueprintName = "Dotenv"
-               ReferencedContainer = "container:ReactNativeConfig.xcodeproj">
+               ReferencedContainer = "container:ReactNativeConfigPackage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,7 +48,7 @@
             BlueprintIdentifier = "EBE4E83A1C7D1D11000F8875"
             BuildableName = "Dotenv.bundle"
             BlueprintName = "Dotenv"
-            ReferencedContainer = "container:ReactNativeConfig.xcodeproj">
+            ReferencedContainer = "container:ReactNativeConfigPackage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,7 +66,7 @@
             BlueprintIdentifier = "EBE4E83A1C7D1D11000F8875"
             BuildableName = "Dotenv.bundle"
             BlueprintName = "Dotenv"
-            ReferencedContainer = "container:ReactNativeConfig.xcodeproj">
+            ReferencedContainer = "container:ReactNativeConfigPackage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

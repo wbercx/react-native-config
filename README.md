@@ -108,13 +108,13 @@ Read variables declared in `.env` from your Obj-C classes like:
 
 ```objective-c
 // import header
-#import "ReactNativeConfig.h"
+#import "ReactNativeConfigPackage.h"
 
 // then read individual keys like:
-NSString *apiUrl = [ReactNativeConfig envFor:@"API_URL"];
+NSString *apiUrl = [ReactNativeConfigPackage envFor:@"API_URL"];
 
 // or just fetch the whole config
-NSDictionary *config = [ReactNativeConfig env];
+NSDictionary *config = [ReactNativeConfigPackage env];
 ```
 
 #### Availability in Build settings and Info.plist
@@ -144,7 +144,7 @@ ios/tmp.xcconfig
 6. create new build phase for the scheme which will generate "tmp.xcconfig" before each build exposing values to Build Settings and Info.plist (this snippet has to be placed after "echo ... > tmp/envfile" if [approach explained below](#ios-multi-scheme) is used)
 
 ```
-"${SRCROOT}/../node_modules/react-native-config/ios/ReactNativeConfig/BuildXCConfig.rb" "${SRCROOT}/.." "${SRCROOT}/tmp.xcconfig"
+"${SRCROOT}/../node_modules/react-native-config/ios/ReactNativeConfigPackage/BuildXCConfig.rb" "${SRCROOT}/.." "${SRCROOT}/tmp.xcconfig"
 ```
 
 ### Different environments

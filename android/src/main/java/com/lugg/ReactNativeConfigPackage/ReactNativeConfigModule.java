@@ -1,4 +1,4 @@
-package com.lugg.ReactNativeConfig;
+package com.lugg.ReactNativeConfigPackage;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -20,7 +20,7 @@ public class ReactNativeConfigModule extends ReactContextBaseJavaModule {
 
   @Override
   public String getName() {
-    return "ReactNativeConfig";
+    return "ReactNativeConfigPackage";
   }
 
   @Override
